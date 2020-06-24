@@ -82,7 +82,7 @@
         "subnetName": "Subnet",
         "subnetPrefix": "10.0.0.0/24",
         "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-        "vmName": "Sudhanshu_Gairola",
+        "vmName": "gairola",
         "virtualNetworkName": "GairolaVNET",
         "publicIPAddressName": "GairolaPublicIP",
         "dnsNameForPublicIP": "[concat('cgp', uniqueString(resourceGroup().id, deployment().name))]",
